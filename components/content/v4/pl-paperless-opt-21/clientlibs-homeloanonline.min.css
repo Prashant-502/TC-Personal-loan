@@ -28,7 +28,7 @@
 .applicationloan-item .application-icon{padding-top:30px;display:flex;flex-direction:column;align-items:center;position:relative}
 .applicationloan-item .application-icon .img-icon{width:90px;height:90px;background:#fff;box-shadow:0 4px 20px rgba(0,0,0,0.25);display:flex;border-radius:50%;align-items:center;justify-content:center;margin:auto;position:relative}
 .applicationloan-item .application-icon .img-icon img{width:36px;margin:auto;position:relative;z-index:1}
-.applicationloan-item .application-icon .img-icon:after{content:'';display:none;background-image:url("../../../../../../content/dam/tata-capital/home-loan-online/line-circle.svg");background-repeat:no-repeat;background-size:cover;width:80px;height:80px;position:absolute;top:50%;margin-top:-40px;left:5px}
+.applicationloan-item .application-icon .img-icon:after{content:'';display:none;background-image:url("../../../../content-dam/tata-capital/home-loan-online/line-circle.svg");background-repeat:no-repeat;background-size:cover;width:80px;height:80px;position:absolute;top:50%;margin-top:-40px;left:5px}
 .applicationloan-item .application-icon .img-indicator{height:73px;background:#e4e4e4;display:block;width:1px;margin:auto;position:relative}
 .applicationloan-item .application-icon .img-indicator:before{content:'';width:21px;height:21px;border:1px solid #e4e4e4;position:absolute;bottom:100%;left:50%;border-radius:50%;margin-left:-10px}
 .applicationloan-item .application-icon .img-indicator:after{content:'';width:11px;height:11px;background:#a1b331;position:absolute;bottom:100%;left:50%;border-radius:50%;margin-left:-5px;margin-bottom:5px}
