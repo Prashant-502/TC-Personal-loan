@@ -1,0 +1,18 @@
+.know-more-features-advantages{width:100%;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-item-align:end;align-self:flex-end;-ms-flex-direction:column;flex-direction:column}
+.know-more-features-advantages .feature-text{font-family:"OpenSans-Bold";font-size:15px;color:#333}
+.know-more-features-advantages .feature-description{font-family:"OpenSans-Regular";font-size:13px;color:#333}
+.know-more-features-advantages-heading{background-color:#fff;padding:20px 30px;border-bottom:solid 3px #f3f3ea}
+.know-more-features-advantages-heading p{font-family:"OpenSans-Regular";font-size:13px;color:#333}
+.know-more-features-advantages-body{background-color:#fff;padding:30px;margin-bottom:5px}
+.know-more-features-advantages-body-element{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;margin-bottom:30px}
+.know-more-features-advantages-body-element:last-child{margin-bottom:0}
+.know-more-features-advantages-body .rupee-symbol-font{font-family:"Rupee-Font"}
+.know-more-features-advantages-info-card{background-color:#fff;margin-bottom:10px;padding:30px;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}
+.know-more-features-advantages-info-card h1{margin-top:0}
+.know-more-features-advantages-info-card p:last-child{margin-bottom:0}
+.know-more-content-heading{text-align:left;margin:auto 30px}
+@media only screen and (max-width:768px){.know-more-content-heading{display:block}
+}
+.know-more-content-heading h1{font-family:"OpenSans-Bold";font-size:21px;color:#333;margin-top:0;margin-bottom:20px}
+.know-more-features-advantages-heading h3{font-family:'OpenSans-Regular';font-size:13px;color:#333;font-weight:bold}
+.know-more-features-advantages-heading h2{font-family:'OpenSans-Regular';font-size:13px;color:#333;font-weight:bold;margin-top:0}

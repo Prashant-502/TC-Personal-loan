@@ -1,0 +1,32 @@
+.video-component{background-color:#f3f3ea}
+.youtube-cust{width:100%;height:385px;position:relative}
+.youtube-cust .youtube-video-overlay-screen{position:absolute;top:0;left:0;left:0;right:0;background:rgba(0,0,0,0.314);width:100%;height:100%;-webkit-transition:opacity .1s;transition:opacity .1s;cursor:pointer}
+.youtube-cust .screen-play-button{width:100px;height:100px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);transition:transform .2s;cursor:pointer}
+.youtube-cust .youtube-video-overlay-screen:hover .screen-play-button{transform:translate(-50%,-50%) scale(1.1)}
+.planning-loan-heading{font-size:21px;margin-bottom:20px;font-family:"OpenSans-Bold";text-align:center;color:#333}
+.video-component-main-div .video-row{display:-ms-flexbox;display:flex;padding-bottom:35px}
+.video-component-main-div .video-row .promo-video{width:70%;height:350px}
+@media only screen and (max-width:767px){.youtube-cust{height:auto}
+.youtube-cust .screen-play-button,.ytsvgicon{width:50px;height:50px}
+.video-component-main-div .video-row .promo-video{width:100%;height:unset}
+}
+.video-component-main-div .video-row .promo-video .promo-video-link{width:100%;height:350px}
+@media only screen and (max-width:767px){.video-component-main-div .video-row .promo-video .promo-video-link{width:100%;height:221px}
+.youtube>img{width:100%;height:385px}
+.youtube-cust>img{width:100%;height:100%;object-fit:cover}
+}
+.video-component-main-div .video-row .video-text-content{background:#fff;padding:20px 20px;width:30%;box-shadow:0 4px 10px 0 rgba(0,0,0,0.1);font-family:"OpenSans-Regular";font-size:15px;line-height:1.57;color:#333;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex:1;flex:1}
+@media only screen and (max-width:767px){.video-component-main-div .video-row .video-text-content{width:100%}
+}
+@media only screen and (min-width:766px)and (max-width:991px){.video-component-main-div .video-row .promo-video{height:auto}
+}
+.youtube>img{width:100%;height:-webkit-fill-available}
+.youtube-cust>img{width:100%;height:100%;object-fit:cover}
+@media only screen and (min-width:768px){.youtube>img{width:100%;height:385px}
+.youtube-cust>img{width:100%;height:100%;object-fit:cover}
+.video-component-main-div .video-row .promo-video .promo-video-link{width:100%;height:385px}
+.video-component-main-div .video-row .video-text-content{height:385px}
+}
+@media only screen and (max-width:767px){.video-component-main-div .video-row .promo-video .promo-video-link{width:100%;height:221px}
+.youtube>img{width:100%;height:221px}
+}

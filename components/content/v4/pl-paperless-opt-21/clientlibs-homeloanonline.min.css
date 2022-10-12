@@ -1,0 +1,120 @@
+.homeloan-online-applicationloan{background:#fff;box-shadow:0 4px 25px rgba(0,0,0,0.08);padding:27px 47px}
+.homeloan-online-applicationloan hr{margin:45px 30px 60px;display:block}
+.homeloan-online-applicationloan.home-slider-height{height:278px;overflow:hidden}
+.homeloan-online-applicationloan.slider-card{margin:0;display:flex;flex-wrap:wrap}
+.homeloan-online-applicationloan.slider-card .itemCard{text-align:left;box-shadow:none;justify-content:flex-start;padding:0 30px;min-height:auto}
+.homeloan-online-applicationloan.slider-card .itemCard.border{position:relative}
+.homeloan-online-applicationloan.slider-card .itemCard.border:after{content:'';background:#b5c1c4;opacity:.5;width:1px;height:100%;position:absolute;right:0;top:0;bottom:0}
+.homeloan-online-applicationloan.slider-card .itemCard small{font-family:'OpenSans-Bold';font-size:12px;letter-spacing:.02em;text-transform:capitalize;color:#667a80;opacity:.3;justify-content:flex-start}
+.homeloan-online-applicationloan.slider-card .itemCard .icon-img{margin:0;width:36px;height:36px}
+.homeloan-online-applicationloan.slider-card .itemCard .item-number-group{display:flex;align-items:center;margin:0 0 5px}
+.homeloan-online-applicationloan.slider-card .itemCard .item-number-group small{margin-right:10px}
+.homeloan-online-applicationloan.slider-card .itemCard .itemCard-title{font-size:16px;font-family:'OpenSans-Bold';letter-spacing:.02em;color:#333;margin-bottom:5px}
+.homeloan-online-applicationloan.slider-card .itemCard span{font-family:"OpenSans-Regular";font-size:14px;letter-spacing:.02em;color:#333;opacity:.8;display:block;line-height:20px}
+.homeloan-online-applicationloan.slider-card .itemCard .flag-box{background:rgba(25,97,172,0.05);border-radius:4px;padding:10px 30px 10px 40px;position:relative;margin:0 -10px}
+.homeloan-online-applicationloan.slider-card .itemCard .flag-box:before{content:'';background-image:url("assets/images/home-loan-online/flag.png");background-repeat:no-repeat;background-size:contain;width:14px;height:25px;position:absolute;top:0;left:12px}
+.homeloan-online-applicationloan.slider-card .itemCard a{display:inline-block;margin-top:10px}
+.homeloan-online-applicationloan.slider-card .itemBox{padding:0;width:33.3%}
+.homeloan-online-applicationloan.slider-card .itemBox:last-child .itemCard:after{display:none}
+.homeloan-online-applicationloan.slider-arrow .slick-arrow.slick-prev{left:-40px}
+.homeloan-online-applicationloan.slider-arrow .slick-arrow.slick-next{right:-40px}
+.homeloan-application-action{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;margin-top:10px}
+.homeloan-application-action p{font-size:14px;letter-spacing:.02em;color:#333;margin:20px 20px 0 0;font-family:'OpenSans-SemiBold'}
+.homeloan-application-action .know-more-text{height:44px;padding:15px;justify-content:center}
+.homeloan-application{position:relative}
+.homeloan-application .snake-img-bg{position:absolute;top:50%;left:50%;margin:-94px 0 0 -431px;width:865px}
+.homeloan-application .homeloan-application-inner{display:flex;width:825px;margin:auto}
+.applicationloan-item{position:relative;width:calc(100% / 6)}
+.applicationloan-item .application-icon{padding-top:30px;display:flex;flex-direction:column;align-items:center;position:relative}
+.applicationloan-item .application-icon .img-icon{width:90px;height:90px;background:#fff;box-shadow:0 4px 20px rgba(0,0,0,0.25);display:flex;border-radius:50%;align-items:center;justify-content:center;margin:auto;position:relative}
+.applicationloan-item .application-icon .img-icon img{width:36px;margin:auto;position:relative;z-index:1}
+.applicationloan-item .application-icon .img-icon:after{content:'';display:none;background-image:url("../../../../../../content/dam/tata-capital/home-loan-online/line-circle.svg");background-repeat:no-repeat;background-size:cover;width:80px;height:80px;position:absolute;top:50%;margin-top:-40px;left:5px}
+.applicationloan-item .application-icon .img-indicator{height:73px;background:#e4e4e4;display:block;width:1px;margin:auto;position:relative}
+.applicationloan-item .application-icon .img-indicator:before{content:'';width:21px;height:21px;border:1px solid #e4e4e4;position:absolute;bottom:100%;left:50%;border-radius:50%;margin-left:-10px}
+.applicationloan-item .application-icon .img-indicator:after{content:'';width:11px;height:11px;background:#a1b331;position:absolute;bottom:100%;left:50%;border-radius:50%;margin-left:-5px;margin-bottom:5px}
+.applicationloan-item .application-icon .flag-icon{position:absolute;top:100%;margin-top:4px;display:none}
+.applicationloan-item:nth-child(2) .application-icon-content h2{position:relative;left:-11px}
+.applicationloan-item:nth-child(2) .application-icon .img-indicator:after{background-color:#c6cd16}
+.applicationloan-item:nth-child(3) .application-icon .img-indicator:after{background-color:#74995b}
+.applicationloan-item:nth-child(4) .application-icon .img-indicator:after{background-color:#8ca948}
+.applicationloan-item:nth-child(5) .application-icon .img-indicator:after{background-color:#447c88}
+.applicationloan-item:nth-child(6) .application-icon .img-indicator:after{background-color:#5c8b73}
+.applicationloan-item .application-icon-content{text-align:center;width:212px;margin-left:-37px;padding:10px}
+.applicationloan-item .application-icon-content span{font-size:12px;letter-spacing:.02em;text-transform:uppercase;color:#333;display:block}
+.applicationloan-item .application-icon-content span.step-text{font-family:'OpenSans-SemiBold'}
+.applicationloan-item .application-icon-content span.number{font-family:'OpenSans-Bold';color:#005899;font-size:20px}
+.applicationloan-item .application-icon-content h2{font-size:16px;letter-spacing:.02em;color:#333;font-family:'OpenSans-Bold';margin:0 0 5px;white-space:nowrap}
+.applicationloan-item .application-icon-content p{margin:0;font-size:13px;letter-spacing:.02em;color:#555;opacity:.8}
+.applicationloan-item.applicationloan-item-reverse{display:flex;flex-direction:column-reverse;margin-top:216px}
+.applicationloan-item.applicationloan-item-reverse .application-icon{display:flex;flex-direction:column-reverse;padding-top:0;padding-bottom:30px}
+.applicationloan-item.applicationloan-item-reverse .application-icon .img-indicator:before{top:100%}
+.applicationloan-item.applicationloan-item-reverse .application-icon .img-indicator:after{top:100%;margin-top:5px}
+.applicationloan-item.flag-active .application-icon .flag-icon{display:block}
+.applicationloan-item.flag-active .application-icon .img-icon:after{display:block}
+.applicationloan-item.flag-active .application-icon-content{background:rgba(25,97,172,0.1);border-radius:2px}
+@media(max-width:1199px){.homeloan-application .snake-img-bg{margin:-94px 0 0 -421px;width:845px}
+.homeloan-application .homeloan-application-inner{width:805px}
+}
+@media(max-width:991px){.homeloan-online-applicationloan{padding:27px 0}
+.homeloan-application .snake-img-bg{margin:-70px 0 0 -321px;width:636px}
+.homeloan-application .homeloan-application-inner{width:602px;margin:0 0 0 29px}
+.applicationloan-item{margin-bottom:16px}
+.applicationloan-item .application-icon .img-icon{width:70px;height:70px}
+.applicationloan-item .application-icon .img-icon:after{width:56px;height:56px;left:7px;margin-top:-27px}
+.applicationloan-item .application-icon .img-icon img{width:30px}
+.applicationloan-item .application-icon .flag-icon{margin-top:3px}
+.applicationloan-item .application-icon-content{width:190px;margin-left:-44px}
+.applicationloan-item .application-icon-content h2{white-space:normal;left:0 !important}
+.applicationloan-item .application-icon-content p{min-height:54px}
+.applicationloan-item.applicationloan-item-reverse{margin-top:247px;margin-bottom:0}
+}
+@media(max-width:767px){.homeloan-online-applicationloan{box-shadow:none}
+.homeloan-online-applicationloan .slick-dots{bottom:0}
+.homeloan-online-applicationloan.slider-card{margin:0 -15px}
+.homeloan-online-applicationloan.slider-card .itemBox{padding:12px}
+.homeloan-online-applicationloan.slider-card .itemCard{box-shadow:0 2px 15px rgba(0,0,0,0.1);padding:20px 24px}
+.homeloan-online-applicationloan.slider-card .itemCard.border:after{display:none}
+.homeloan-online-applicationloan.slider-card .itemCard .flag-box{margin:0}
+.homeloan-application-action p{margin-right:0}
+}
+.homeloan-application .snake-img-mob-bg{display:none}
+@media(max-width:767px){.homeloan-application{width:234px;margin:auto;padding-top:70px;padding-bottom:50px}
+.homeloan-application .snake-img-bg{display:none}
+.homeloan-application .snake-img-mob-bg{display:block;width:234px;margin:auto}
+.homeloan-application .homeloan-application-inner{width:234px;height:100%;position:absolute;left:0;top:0;display:block;margin-left:0}
+.applicationloan-item{width:auto;padding-left:67px}
+.applicationloan-item .application-icon .img-icon{width:90px;height:90px}
+.applicationloan-item .application-icon .img-icon img{width:36px}
+.applicationloan-item .application-icon .img-icon:after{width:80px;height:80px;margin-top:-40px;left:5px}
+.applicationloan-item.flag-active .application-icon .flag-icon{position:absolute;margin:0;top:-28px;left:33px}
+.applicationloan-item.applicationloan-item-reverse{padding-left:0;padding-right:67px;margin-top:0}
+.applicationloan-item.applicationloan-item-reverse .application-icon-content{text-align:right}
+.applicationloan-item.applicationloan-item-reverse .application-icon{margin-top:0;left:auto;top:28px;right:-28px}
+.applicationloan-item:nth-child(1){position:absolute;left:0;top:0}
+.applicationloan-item:nth-child(1) .application-icon{top:0}
+.applicationloan-item:nth-child(2){position:absolute;top:200px;right:0}
+.applicationloan-item:nth-child(3){position:absolute;left:0;top:405px}
+.applicationloan-item:nth-child(4){position:absolute;right:0;top:600px}
+.applicationloan-item:nth-child(5){position:absolute;left:0;top:805px}
+.applicationloan-item:nth-child(6){position:absolute;right:0;top:995px}
+.applicationloan-item:nth-child(6) .application-icon{top:50px}
+.applicationloan-item .application-icon-content{text-align:left;width:175px;margin-left:0}
+.applicationloan-item .application-icon-content h2{white-space:normal}
+.applicationloan-item .application-icon-content p{line-height:16px}
+.applicationloan-item .application-icon-content span.number{line-height:20px;margin-bottom:3px}
+.applicationloan-item .application-icon{padding-top:0;padding-top:0;position:absolute;left:-28px;top:22px}
+.applicationloan-item .application-icon .img-indicator{display:none}
+}
+@media(max-width:359px){.applicationloan-item{padding-left:60px}
+.applicationloan-item .application-icon-content{width:175px}
+.applicationloan-item .application-icon{left:-18px;top:28px}
+.applicationloan-item .application-icon .img-icon{width:70px;height:70px}
+.applicationloan-item .application-icon .img-icon:after{width:60px;height:60px;margin-top:-30px;left:5px}
+.applicationloan-item.flag-active .application-icon .flag-icon{left:25px}
+.applicationloan-item.applicationloan-item-reverse{padding-left:0;padding-right:60px}
+.applicationloan-item.applicationloan-item-reverse .application-icon{left:auto;right:-18px;top:35px}
+.applicationloan-item:nth-child(1) .application-icon{top:10px}
+.applicationloan-item:nth-child(6) .application-icon{top:60px}
+}
+.homeloan-online-spacetb .container .homeloan-application-action .primary-lime{margin-top:20px;color:#d7df23 !important}
+.homeloan-online-spacetb{padding:40px 0 50px !important}

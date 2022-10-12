@@ -1,0 +1,41 @@
+.payment-options{margin-top:50px;width:100%;background-color:#f3f3e9}
+.payment-options .arrow-icon{display:none}
+.contact-section .contact-box{margin-bottom:15px}
+.payment-options .contact-section{display:flex;justify-content:center;align-items:center}
+.payment-options .contact-details{display:block;margin:20px 0;padding:0 40px;font-family:OpenSans-Regular;font-size:13px;min-height:85px;font-weight:400}
+.payment-options .payment-options-heading{font-family:OpenSans-Bold;font-size:21px;font-weight:700;text-align:center;margin-bottom:30px;color:#333}
+.payment-options .contact-box p{margin:0 !important}
+.payment-options .contact-box{width:31%;margin-right:15px}
+.payment-options .contact-box-inner-container{text-align:center;background-color:#fff;box-shadow:0 4px 10px 0 rgba(0,0,0,.1);height:100%;width:100%}
+.payment-options .arrow-icon .accordion .active{-ms-transform:rotate(180deg);transform:rotate(180deg)}
+.payment-options .contact-heading{font-family:OpenSans-Bold;font-size:15px;font-weight:700}
+.payment-options .contact-image-section{height:90px;padding:30px 0 10px 0}
+.payment-options .contact-now{background-color:#005899 !important;color:#fff !important;outline:0 !important;font-family:"OpenSans-Bold";height:44px;background-color:#fff;border:0;outline:0;border-radius:4px;font-size:12px;line-height:16px;display:inline-flex;align-items:center;text-align:center;justify-content:center;letter-spacing:.02em;text-transform:uppercase;color:#333;padding:10px 20px;min-width:158px}
+.payment-options .contact-now:hover{background-color:#0073bb}
+.payment-options .row{margin:0 !important}
+.payment-options .slide-container{font-size:15px;display:none}
+.payment-options .clearfix{overflow:auto}
+.payment-options .break-line-accordion{background-color:#fff;display:none;margin:23px 0;border-bottom:solid 2px #d3d3c9}
+.payment-options .space-contact{margin:20px 70px 30px 70px}
+@media only screen and (min-width:768px) and (max-width:991px){.payment-options .space-contact{margin:20px 70px 30px 30px}
+}
+@media only screen and (min-width:768px) and (max-width:991px){.payment-options .contact-details{padding:0 20px;min-height:105px}
+.payment-options .contact-now{padding:0}
+}
+@media only screen and (max-width:767px){.payment-options .arrow-icon{margin-right:18px;display:block;cursor:pointer;-ms-transform:translateY(-20px);transform:translateY(-23px);float:right;vertical-align:middle}
+.payment-options .contact-box:nth-child(2){padding:0}
+.payment-options .contact-box:first-child{padding-left:0;padding-right:0}
+.payment-options .contact-box:last-child{padding:0}
+.payment-options .contact-details,.payment-options .space-contact{min-height:unset;display:none}
+.payment-options .contact-details{padding:0 25px}
+.payment-options .contact-heading{margin:auto;width:70%;margin-top:25px}
+.payment-options .contact-image-section{padding:0;float:left;margin-left:18px;height:30px;width:25px;vertical-align:middle;margin-top:20px}
+.payment-options .contact-box{width:100%;padding:0;margin-bottom:20px;margin-right:0}
+.payment-options .contact-image-section img{height:100%}
+.payment-options .contact-box:last-child .contact-image-section{width:18px}
+.payment-options .contact-box-inner-container{vertical-align:middle}
+.payment-options .contact-now{height:50px;padding:0;margin:auto}
+.payment-options .space-contact{display:none}
+}
+.payment-options .contact-now:hover{background-color:#0073bb !important;color:#fff !important}
+.payment-options .contact-box:first-child{padding-right:0}

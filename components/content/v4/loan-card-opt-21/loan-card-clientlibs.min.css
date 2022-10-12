@@ -1,0 +1,37 @@
+.persnalloan-overview-text{max-width:620px;margin:auto;text-align:center;padding:35px 0}
+.persnalloan-overview-text h4{font-family:'OpenSans-Bold';font-size:20px;line-height:26px;letter-spacing:.02em;text-transform:uppercase;color:#333;margin:0 0 8px}
+.persnalloan-overview-text p{font-size:14px;line-height:21px;letter-spacing:.02em;color:rgba(51,51,51,0.8);margin:0}
+.personal-loan-cards{margin-bottom:40px}
+.personal-loan-cards-slider{margin:0 -10px;display:flex;flex-wrap:wrap;justify-content:center}
+.personal-loan-cards-slider .personal-loan-cards-col{padding:0 10px;width:33.33%;margin-bottom:20px}
+.personal-loan-cards-slider .personal-loan-cards-col:focus{outline:0}
+.personal-loan-cards-slider .personal-loan-cards-inner{background:#fff;box-shadow:0 3px 25px rgba(0,0,0,0.25);padding:26px 30px 52px;text-align:center;position:relative;cursor:pointer;height:100%}
+.personal-loan-cards-slider .personal-loan-cards-inner .pl-cards-icons{height:41px;margin-bottom:7px;display:block}
+.personal-loan-cards-slider .personal-loan-cards-inner .pl-cards-icons img{max-height:41px;margin:auto}
+.personal-loan-cards-slider .personal-loan-cards-inner .pl-cards-icons img.img-main{display:block}
+.personal-loan-cards-slider .personal-loan-cards-inner .pl-cards-icons img.img-hover{display:none}
+.personal-loan-cards-slider .personal-loan-cards-inner:hover{background-color:#d7df23}
+.personal-loan-cards-slider .personal-loan-cards-inner:hover .pl-cards-icons img.img-main{display:none}
+.personal-loan-cards-slider .personal-loan-cards-inner:hover .pl-cards-icons img.img-hover{display:block}
+.personal-loan-cards-slider .personal-loan-cards-inner .pl-cards-name{font-family:'OpenSans-Bold';font-size:16px;line-height:24px;letter-spacing:.02em;color:#333;display:block;margin-bottom:10px}
+.personal-loan-cards-slider .personal-loan-cards-inner p{font-size:13px;line-height:19px;letter-spacing:.02em;color:rgba(51,51,51,0.8);margin-bottom:17px}
+.personal-loan-cards-slider .personal-loan-cards-inner .pl-btn-links{font-family:'OpenSans-SemiBold';font-size:12px;line-height:16px;letter-spacing:.02em;text-transform:uppercase;color:#005899}
+.personal-loan-cards-slider .personal-loan-cards-inner .pl-btn-links span{font-size:10px}
+.personal-loan-cards-slider .personal-loan-cards-inner .pl-bottom-links{width:100%;position:absolute;left:0;bottom:26px;text-align:center;padding:0 15px}
+@media(max-width:1199px){.personal-loan-cards-slider .personal-loan-cards-inner{padding-left:25px;padding-right:25px}
+}
+@media(max-width:991px){.personal-loan-cards-slider .personal-loan-cards-inner{padding-left:15px;padding-right:15px}
+.personal-loan-cards-slider .personal-loan-cards-col{width:50%}
+}
+@media(max-width:767px){.persnalloan-overview-text{padding-bottom:14px}
+.personal-loan-cards-slider{display:block;margin:0 -15px}
+.personal-loan-cards-slider .slick-track{padding:20px 0;display:flex}
+.personal-loan-cards-slider.bannerdots .slick-dots li{margin:0 5px}
+.personal-loan-cards-slider.bannerdots .slick-dots li.slick-active{padding-right:0}
+.personal-loan-cards-slider .personal-loan-cards-inner{box-shadow:0 3px 19px rgba(0,0,0,0.1);padding:20px 24px 36px;text-align:left}
+.personal-loan-cards-slider .personal-loan-cards-inner .pl-bottom-links{padding:0 24px;text-align:left;bottom:16px}
+.personal-loan-cards-slider .personal-loan-cards-inner .pl-cards-icons img{margin:0}
+.personal-loan-cards-slider .personal-loan-cards-col{padding:0 5px;margin-bottom:0;width:100%;height:inherit}
+.personal-loan-cards{margin-bottom:65px}
+}
+.persnalloan-overview-text h2{font-family:'OpenSans-Bold';font-size:20px;line-height:26px;letter-spacing:.02em;text-transform:uppercase;color:#333;margin:0 0 8px}

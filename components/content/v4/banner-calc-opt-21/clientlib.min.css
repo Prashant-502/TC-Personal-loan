@@ -1,0 +1,66 @@
+.bannerItem{overflow:hidden;background-repeat:no-repeat;background-size:cover;background-position:right center}
+.banner-content-group{position:relative}
+.banner-content-group.bar:before{content:'';background:#005899;width:15px;height:auto;position:absolute;right:0;top:22px;bottom:25px}
+.bannercalculator{background:rgba(0,88,153,0.9);padding:22px 65px 25px 0;display:inline-block;position:relative;z-index:1;width:500px;min-height:253px}
+.bannercalculator.bar{position:relative}
+.bannercalculator.bar:before{content:'';background:#d7df23;width:15px;height:auto;position:absolute;left:100%;top:22px;bottom:25px}
+.bannercalculator:after{content:'';background:rgba(0,88,153,0.9);width:100%;height:100%;position:absolute;right:100%;top:0}
+.bannercalculator h2{font-family:'OpenSans-Bold';font-size:29px;line-height:36px;color:#fff;margin:0;padding-bottom:10px;position:relative}
+.bannercalculator h2:after{content:'';border-top:1px solid #d7df23;width:25px;position:absolute;bottom:0;left:0}
+.bannercalculator .banner-calculator-box{display:flex;flex-wrap:wrap;margin:5px -8px 0}
+.bannercalculator .banner-calculator-box .calculator-details{width:33.3%;padding:0 8px}
+.bannercalculator .calculator-details{margin-top:20px;margin-bottom:0;border:0}
+.bannercalculator .calculator-details .calculator-details-top{display:block}
+.bannercalculator .calculator-details .calculator-details-top h6{color:#fff;margin-bottom:5px}
+.bannercalculator .calculator-details .calculator-heading-month{width:100%;padding:0;margin-bottom:5px}
+.bannercalculator .calculator-details .calculator-textbox .btn-apply.btn-month{width:28px;height:24px}
+.bannercalculator .calculator-details .calculator-textbox .btn-apply.btn-month.btn-count{font-size:10px;line-height:10px}
+.bannercalculator .calculator-details .calculator-textbox .text-group{width:calc(100% - 28px);padding:0 5px}
+.bannercalculator .calculator-details .calculator-textbox .text-group .input-textbox{font-size:12px;font-family:'OpenSans-SemiBold';padding:0 7px;width:100%;height:24px}
+.bannercalculator .calculator-details .calculator-textbox .text-group.prefix-symbol .icon-indian-rupee{font-weight:600;right:auto;left:13px;font-size:10px;line-height:12px}
+.bannercalculator .calculator-details .calculator-textbox .text-group.prefix-symbol span{font-family:'OpenSans-SemiBold';font-size:12px;top:50%;right:13px;transform:translateY(-50%)}
+.bannercalculator .calculator-details .calculator-textbox .text-group.prefix-symbol .input-textbox{padding-right:18px}
+.bannercalculator .calculator-details .calculator-textbox .text-group.prefix-symbol.left .input-textbox{padding-right:7px;padding-left:20px}
+.bannercalculator .calculator-details .calculator-details-bottom{height:0;overflow:hidden}
+.bannercalculator .emi-details{background:#fff;border-radius:4px;display:flex;margin:20px 0 15px}
+.bannercalculator .emi-details .emi-details-list{width:calc(100% - 114px);display:flex;align-items:center;padding:10px 20px;justify-content:space-between}
+.bannercalculator .emi-details .emi-details-list p{font-family:'OpenSans-SemiBold';font-size:12px;color:#333;line-height:24px;margin:0}
+.bannercalculator .emi-details .emi-details-list span{display:inline-block;font-size:16px;letter-spacing:.02em;color:#333;font-family:'OpenSans-Bold'}
+.bannercalculator .emi-details .emi-details-list span i{font-size:13px}
+.bannercalculator .emi-details .btn-apply{min-width:114px;height:auto;border-radius:0 4px 4px 0;padding:0;width:114px}
+@media(max-width:1199px){.bannercalculator{padding:22px 20px 25px 0;width:450px}
+.bannercalculator h2{font-size:24px;line-height:32px;padding-bottom:5px}
+.bannercalculator .banner-calculator-box{margin:5px -5px 0}
+.bannercalculator .banner-calculator-box .calculator-details{padding:0 5px}
+}
+@media(max-width:991px){.bannerItem{background-position:90% center}
+}
+@media(max-width:767px){.banner-content-group{background:#005899}
+.bannercalculator{background:transparent;width:100%;padding:20px 0 34px}
+.bannercalculator:after{display:none}
+.bannercalculator.bar:before{display:none}
+.bannercalculator h2{font-family:'OpenSans-Regular';text-transform:uppercase;font-size:14px;line-height:22px;padding:0}
+.bannercalculator h2:after{display:none}
+.bannercalculator .banner-calculator-box .calculator-details{width:50%}
+.bannercalculator .banner-calculator-box .calculator-details:last-child{margin-top:15px}
+.bannercalculator .calculator-details{margin-top:10px}
+.bannercalculator .emi-details .emi-details-list{align-items:baseline;padding:10px 14px;justify-content:flex-start}
+.bannercalculator .emi-details .emi-details-list span{padding-left:5px}
+}
+@media(max-width:359px){.bannercalculator .emi-details .emi-details-list{flex-wrap:wrap}
+.bannercalculator .emi-details .emi-details-list p{line-height:12px;margin:0 0 3px;width:100%}
+.bannercalculator .emi-details .emi-details-list span{padding-left:0}
+}
+.calculator-details .calculator-details-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.calculator-details .calculator-heading-month{display:flex;align-items:center;justify-content:space-between;width:calc(100% - 186px);padding-right:15px}
+.calculator-details .calculator-textbox{display:flex;align-items:center;justify-content:space-between}
+.calculator-details .calculator-textbox .btn-apply.btn-month.btn-count{background-color:#d7df23;border-radius:4px;border-color:#d7df23;font-size:14px;line-height:15px;color:#005899;margin:0;position:relative}
+.calculator-details .btn-apply.btn-month{padding:5px 2px;min-width:inherit;width:30px;height:30px;font-size:13px;line-height:13px;border:1px solid #005899;border-radius:6px;text-transform:capitalize;font-family:"OpenSans-SemiBold"}
+.calculator-details .calculator-textbox .btn-apply.btn-month.btn-count i{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+.calculator-details .calculator-textbox .text-group.prefix-symbol{position:relative}
+.calculator-details .calculator-textbox .text-group .input-textbox{border-bottom:1px solid #c2c2c2;background-color:#f3f3f3;color:#4f4f4f;height:30px;border-radius:4px 4px 0 0;padding-left:7px;padding-right:7px;text-align:center;width:110px}
+.calculator-details .calculator-textbox .text-group.prefix-symbol span{font-size:14px;line-height:14px;position:absolute;right:13px;top:8px;font-family:'OpenSans-Bold'}
+.calculator-details .line-center{position:relative}
+.calculator-details .line-center:before{content:'';height:12px;width:1px;background-color:#e6e6e6;position:absolute;left:50%;transform:translateY(-50%);top:37px}
+.bannerBox h6{font-size:12px}
+.know-more-text i{font-size:11px;margin-left:5px}
